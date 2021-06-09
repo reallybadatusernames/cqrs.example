@@ -71,7 +71,7 @@ public class Validator : ICommandValidator<Command>
 
         void fail(string reason)
         {
-            throw new System.ArgumentNullException(reason);
+            throw new CommandValidationException(reason);
         }
     }
 }
