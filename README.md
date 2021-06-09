@@ -1,3 +1,6 @@
+# CQRS Example #
+
+An example of how to implement CQRS in an application. This project utilizes SimpleInjector, but can be adapted to other DI providers. 
 
 **Query Example:**
 ```
